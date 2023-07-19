@@ -1,0 +1,25 @@
+@media screen and (max-width:576px){
+    .header-container{
+        flex-direction: column;
+    }
+
+    .menu-items-container{
+        flex-direction: column;
+        padding-top: 10px;
+        font-size: 1.50rem;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .header-container{
+        /* flex-direction: column; */
+    }
+
+    .menu-items-container{
+        flex-direction: column;
+        padding-top: 10px;
+        font-size: 1.50rem;
+    }
+    
+}
