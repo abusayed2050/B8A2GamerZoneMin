@@ -1,6 +1,22 @@
 @media screen and (max-width:576px){
-    .header-container{
-        flex-direction: column;
+    .header-container,
+    .banner{
+        flex-direction:column;
+    }
+    .banner{
+        flex-direction:column-reverse;
+    }
+    .banner-content,  .banner-img {
+        width:100%;
+    }
+
+    .banner-content{
+        padding-left: 50px;
+    }
+
+    .banner-img  img{
+        margin-left: 10px;
+        width: 450px;
     }
 
     .menu-items-container{
@@ -8,12 +24,20 @@
         padding-top: 10px;
         font-size: 1.50rem;
     }
+
     
 }
 
 @media screen and (min-width:576px) and (max-width:992px){
     .header-container{
         /* flex-direction: column; */
+    }
+    .banner{
+        flex-direction:column-reverse;
+    }
+    .banner-content,  .banner-img {
+        padding-left: 10%;
+        width:100%;
     }
 
     .menu-items-container{
